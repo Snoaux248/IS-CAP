@@ -1,0 +1,375 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="final-clean-full-schema" name="Final Clean Full Schema">
+    <mxGraphModel dx="2820" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2300" pageHeight="1750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_User_" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="User_" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;user_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_name" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="user_name" vertex="1">
+          <mxGeometry height="45" width="110" x="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_start_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="user_start_date" vertex="1">
+          <mxGeometry height="45" width="154" x="310" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_email" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="user_email" vertex="1">
+          <mxGeometry height="45" width="114" x="464" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_account_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="user_account_status" vertex="1">
+          <mxGeometry height="45" width="186" x="578" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="User__user_type" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="user_type" vertex="1">
+          <mxGeometry height="45" width="110" x="764" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Influencer" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Influencer" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="Influencer_user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;user_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="90" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Influencer_handle" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="handle" vertex="1">
+          <mxGeometry height="45" width="110" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Influencer_payment_info" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="payment_info" vertex="1">
+          <mxGeometry height="45" width="130" x="310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Influencer_niche" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="niche" vertex="1">
+          <mxGeometry height="45" width="110" x="440" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Influencer_platform" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="platform" vertex="1">
+          <mxGeometry height="45" width="110" x="550" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Brand" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Brand" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="Brand_user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;user_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="90" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Brand_company_name" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="company_name" vertex="1">
+          <mxGeometry height="45" width="130" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Brand_account_routing_number" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="account_routing_number" vertex="1">
+          <mxGeometry height="45" width="190" x="330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Brand_industry" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="industry" vertex="1">
+          <mxGeometry height="45" width="110" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Category" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Category" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="Category_category_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;category_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="90" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Category_category_name" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="category_name" vertex="1">
+          <mxGeometry height="45" width="138" x="212" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Campaign" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Campaign" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;campaign_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="90" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_title" vertex="1">
+          <mxGeometry height="45" width="146" x="212" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_budget" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_budget" vertex="1">
+          <mxGeometry height="45" width="154" x="358" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_start_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_start_date" vertex="1">
+          <mxGeometry height="45" width="186" x="512" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_end_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_end_date" vertex="1">
+          <mxGeometry height="45" width="170" x="698" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_status" vertex="1">
+          <mxGeometry height="45" width="154" x="868" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_campaign_objective" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="campaign_objective" vertex="1">
+          <mxGeometry height="45" width="178" x="1022" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="Campaign_brand_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=2;" value="&lt;i&gt;brand_id&lt;/i&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="1200" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Application" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Application" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;user_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="110" x="90" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_campaign_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;campaign_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="200" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_application_pitch" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="application_pitch" vertex="1">
+          <mxGeometry height="45" width="170" x="322" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_application_proposed_rate" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="application_proposed_rate" vertex="1">
+          <mxGeometry height="45" width="190" x="492" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_application_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="application_status" vertex="1">
+          <mxGeometry height="45" width="178" x="682" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Application_application_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="application_date" vertex="1">
+          <mxGeometry height="45" width="162" x="860" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Contract" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Contract" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="835" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;contract_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="90" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_terms" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="contract_terms" vertex="1">
+          <mxGeometry height="45" width="146" x="212" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_agreed_rate" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="contract_agreed_rate" vertex="1">
+          <mxGeometry height="45" width="190" x="358" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_start_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="contract_start_date" vertex="1">
+          <mxGeometry height="45" width="186" x="548" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_end_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="contract_end_date" vertex="1">
+          <mxGeometry height="45" width="170" x="734" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_contract_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="contract_status" vertex="1">
+          <mxGeometry height="45" width="154" x="904" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_influencer_user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=2;" value="&lt;i&gt;influencer_user_id&lt;/i&gt;" vertex="1">
+          <mxGeometry height="45" width="178" x="1058" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="Contract_brand_user_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=2;" value="&lt;i&gt;brand_user_id&lt;/i&gt;" vertex="1">
+          <mxGeometry height="45" width="138" x="1236" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Payment" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Payment" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_payment_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;payment_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="114" x="90" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_payment_amount" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="payment_amount" vertex="1">
+          <mxGeometry height="45" width="146" x="204" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_paid_at" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="paid_at" vertex="1">
+          <mxGeometry height="45" width="110" x="350" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_payment_method" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="payment_method" vertex="1">
+          <mxGeometry height="45" width="146" x="460" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_payment_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="payment_status" vertex="1">
+          <mxGeometry height="45" width="146" x="606" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="Payment_contract_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=2;" value="&lt;i&gt;contract_id&lt;/i&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="752" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="title_Deliverable" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="Deliverable" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="1115" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_deliverable_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;deliverable_id&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="146" x="90" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_deliverable_type" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="deliverable_type" vertex="1">
+          <mxGeometry height="45" width="162" x="236" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_deliverable_platform" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="deliverable_platform" vertex="1">
+          <mxGeometry height="45" width="190" x="398" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_deliverable_due_date" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="deliverable_due_date" vertex="1">
+          <mxGeometry height="45" width="190" x="588" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_deliverable_status" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="deliverable_status" vertex="1">
+          <mxGeometry height="45" width="178" x="778" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_submission_url" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="submission_url" vertex="1">
+          <mxGeometry height="45" width="146" x="956" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="Deliverable_contract_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=2;" value="&lt;i&gt;contract_id&lt;/i&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="1102" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="title_MetricSnapshots" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="MetricSnapshots" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="1255" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_deliverable_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;deliverable_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="146" x="90" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_snapshot_time" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=4;" value="&lt;u&gt;snapshot_time&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="138" x="236" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_snapshot_views" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="snapshot_views" vertex="1">
+          <mxGeometry height="45" width="146" x="374" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_snapshot_likes" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="snapshot_likes" vertex="1">
+          <mxGeometry height="45" width="146" x="520" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_snapshot_comments" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="snapshot_comments" vertex="1">
+          <mxGeometry height="45" width="170" x="666" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="MetricSnapshots_snapshot_clicks" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;" value="snapshot_clicks" vertex="1">
+          <mxGeometry height="45" width="154" x="836" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="title_InfluencerTags" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="InfluencerTags" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="InfluencerTags_influencer_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;influencer_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="138" x="90" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="InfluencerTags_category_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;category_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="228" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="title_BrandTags" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;align=left;verticalAlign=middle;" value="BrandTags" vertex="1">
+          <mxGeometry height="30" width="320" x="90" y="1525" as="geometry" />
+        </mxCell>
+        <mxCell id="BrandTags_campaign_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;campaign_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="90" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="BrandTags_category_id" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=center;verticalAlign=middle;fontStyle=5;" value="&lt;u&gt;&lt;i&gt;category_id&lt;/i&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="212" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_1" edge="1" parent="1" source="Influencer_user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="290" />
+              <mxPoint x="1780" y="290" />
+              <mxPoint x="1780" y="10" />
+              <mxPoint x="170" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_2" edge="1" parent="1" source="Brand_user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="410" />
+              <mxPoint x="1810" y="410" />
+              <mxPoint x="1810" y="30" />
+              <mxPoint x="160" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_3" edge="1" parent="1" source="Campaign_brand_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1255" y="650" />
+              <mxPoint x="1840" y="650" />
+              <mxPoint x="1840" y="150" />
+              <mxPoint x="145" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_4" edge="1" parent="1" source="Application_user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="840" />
+              <mxPoint x="1870" y="840" />
+              <mxPoint x="1870" y="120" />
+              <mxPoint x="145" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_5" edge="1" parent="1" source="Application_campaign_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Campaign_campaign_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="261" y="810" />
+              <mxPoint x="1900" y="810" />
+              <mxPoint x="1900" y="660" />
+              <mxPoint x="151" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_6" edge="1" parent="1" source="Contract_influencer_user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1147" y="930" />
+              <mxPoint x="1930" y="930" />
+              <mxPoint x="1930" y="130" />
+              <mxPoint x="145" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_7" edge="1" parent="1" source="Contract_brand_user_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305" y="940" />
+              <mxPoint x="1960" y="940" />
+              <mxPoint x="1960" y="140" />
+              <mxPoint x="145" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_8" edge="1" parent="1" source="Payment_contract_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Contract_contract_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="1070" />
+              <mxPoint x="1990" y="1070" />
+              <mxPoint x="1990" y="950" />
+              <mxPoint x="151" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_9" edge="1" parent="1" source="Deliverable_contract_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Contract_contract_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1163" y="1220" />
+              <mxPoint x="2020" y="1220" />
+              <mxPoint x="2020" y="960" />
+              <mxPoint x="151" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_10" edge="1" parent="1" source="MetricSnapshots_deliverable_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Deliverable_deliverable_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="1390" />
+              <mxPoint x="2050" y="1390" />
+              <mxPoint x="2050" y="1240" />
+              <mxPoint x="163" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_11" edge="1" parent="1" source="InfluencerTags_influencer_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="User__user_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="1530" />
+              <mxPoint x="2080" y="1530" />
+              <mxPoint x="2080" y="160" />
+              <mxPoint x="145" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_12" edge="1" parent="1" source="InfluencerTags_category_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Category_category_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="289" y="1510" />
+              <mxPoint x="2110" y="1510" />
+              <mxPoint x="2110" y="520" />
+              <mxPoint x="151" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_13" edge="1" parent="1" source="BrandTags_campaign_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Campaign_campaign_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="151" y="1650" />
+              <mxPoint x="2140" y="1650" />
+              <mxPoint x="2140" y="680" />
+              <mxPoint x="151" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_14" edge="1" parent="1" source="BrandTags_category_id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="Category_category_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="273" y="1620" />
+              <mxPoint x="2170" y="1620" />
+              <mxPoint x="2170" y="530" />
+              <mxPoint x="151" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;fontSize=13;align=left;verticalAlign=middle;" value="Legend: &lt;u&gt;underlined&lt;/u&gt; = Primary Key, &lt;i&gt;italic&lt;/i&gt; = Foreign Key, &lt;u&gt;&lt;i&gt;underlined italic&lt;/i&gt;&lt;/u&gt; = Primary Key + Foreign Key. Arrows point from FK to referenced PK." vertex="1">
+          <mxGeometry height="45" width="900" x="90" y="1680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
